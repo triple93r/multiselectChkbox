@@ -1,0 +1,80 @@
+﻿@model Multiselect.VMs.AllTbls
+
+@{
+    ViewData["Title"] = "AssignSubj";
+}
+
+<h1>AssignSubj</h1>
+<hr />
+@* <div class="row">
+    <div class="col-md-4">
+        <form asp-action="AssignSubj">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Stud_id" class="control-label"></label>
+                <input asp-for="Stud_id" class="form-control" />
+                <span asp-validation-for="Stud_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Class" class="control-label"></label>
+                <input asp-for="Class" class="form-control" />
+                <span asp-validation-for="Class" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject_id" class="control-label"></label>
+                <input asp-for="Subject_id" class="form-control" />
+                <span asp-validation-for="Subject_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div> 
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+
+<form action="AssignSubj" method="post">
+
+    <label>Add Student id</label>
+    <input type="text" asp-for="@Model.tblAcademic.Stud_id" class="form-control" />
+    @* <input asp-for="Stud_id" class="form-control" /> *@
+    <br />
+    <label>Add Student Grade</label>
+    <input asp-for="@Model.tblAcademic.Class" class="form-control" />
+    @* <input type="text" id="Class" class="form-control" /> *@
+    <br />
+    <label>Add Student Subject</label>
+    <ul id="subj">
+        @foreach (var item in Model.Subjects)
+        {
+        <li>
+        <input type="checkbox" name="subjct" value="@item.sName" id=subj_"@item.Id" />
+        <label>@item.sName</label>
+        </li>
+        }
+        @* @foreach (var item in Model)
+        {
+        <li>
+        <input type="checkbox" name="subjct" value="@item.sName" id=subj_"@item.Id" />
+        <label>@item.sName</label>
+        </li>
+        } *@
+    </ul>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+
+</form>
+
+@section scripts {
+    <script>
+        $("form").submit(function () {
+            alert("Submitted");
+        });
+    </script>
+}

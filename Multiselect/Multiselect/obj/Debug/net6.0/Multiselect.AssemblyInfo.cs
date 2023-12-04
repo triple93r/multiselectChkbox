@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Multiselect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40a42c6b791d475ef9526bfd5b8d8d59281e6776")]
 [assembly: System.Reflection.AssemblyProductAttribute("Multiselect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Multiselect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

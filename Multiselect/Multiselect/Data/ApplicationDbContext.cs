@@ -12,5 +12,8 @@ namespace Multiselect.Data
         }
 
         public DbSet<tbl_subject> tbl_Subject { get; set; }
+        public DbSet<Stud_Subj> Stud_Subj { get; set; }
+        public DbSet<tblAcademics> tblAcademics { get; set; }
+        
     }
 }

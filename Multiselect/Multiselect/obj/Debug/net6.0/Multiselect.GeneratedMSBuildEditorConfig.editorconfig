@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Multiselect
 build_property.RootNamespace = Multiselect
 build_property.ProjectDir = E:\Practice\Youtube\multiselectChkbox\Multiselect\Multiselect\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -20,12 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Home/AddSubj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRTdWJqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Home/AssignSubj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBc3NpZ25TdWJqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Home/ViewAllSubj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3QWxsU3Viai5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Practice/Youtube/multiselectChkbox/Multiselect/Multiselect/Views/Shared/Error.cshtml]
